@@ -504,27 +504,25 @@
 // const [i, , [j, k]] = nested
 // console.log(i, j, k)
 
-let obj = {
-        openingHours : {
-                mon: {
-                    open: 10,
-                    close: 56
-                },
+// let obj = {
+//        openingHours : {
+//                mon: {
+//                    open: 10,
+//                    close: 56
+//                },
+//                tue: {
+//                    open: 8,
+//                    close: 10
+//                },
+//                wed: {
+//                   open: 8,
+//                   close: 12
+//                }
+//        }
+//}
 
-                tue: {
-                    open: 8,
-                    close: 10
-                },
-
-                wed: {
-                   open: 8,
-                   close: 12
-                }
-        }
-}
-
-const {mon, ...opening } = obj.openingHours
-console.log(opening)
+//const {mon, ...opening } = obj.openingHours
+//console.log(opening)
 
 // const {
 //      openingHours:{mon: {open, close}}
